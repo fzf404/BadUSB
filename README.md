@@ -25,10 +25,19 @@
 > 首先将编辑信息写入代码中
 
 ```pwoershell
+# ArduinoLeonardo烧录程序
+# 首次烧录前短接RST与GEND
+
 # 安装Flask与yagmail
 pip install -r requirements.txt
+
 # 测试运行
 python3 Upload.py
 
+# 后台运行
+nohup python3 Upload.py &
 ```
 
+## TODO
+
+> 接入阿里云物联网平台
