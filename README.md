@@ -5,18 +5,18 @@
 ## 文件结构
 
 ```powershell
-# 标🎈代表需要自行修改信息
+# 标 🎈 代表需要自行修改信息
 :.
 │  README.md
 │  requirements.txt     # 所需python库
-│  🎈Upload.py            # 服务端程序
+│  🎈 Upload.py            # 服务端程序
 │
 ├─badusb
-│      🎈badusb.ino       # Arduino文件
+│  🎈 badusb.ino       # Arduino文件
 │
 └─static
-        index.html      # 主页
-        🎈SystemInfo.vbs  # Badusb插入后运行的特定程序
+   index.html      # 主页
+   🎈 SystemInfo.vbs  # Badusb插入后运行的特定程序
 
 ```
 
