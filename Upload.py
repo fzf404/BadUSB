@@ -1,9 +1,8 @@
-from flask import Flask
-from flask import request
-import time
 import os
-import yagmail
+import time
 
+import yagmail
+from flask import Flask, request
 
 user = ""       # eamil
 passwd = ""     # 授权码
